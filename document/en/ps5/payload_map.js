@@ -36,7 +36,7 @@ const payload_map = [
         fileName: "etaHEN-2.0b.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/raw/178499a10cf268093b048079e803717195fcab19/etaHEN-2.0b.bin",
+        binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.0b/etaHEN-2.0b.bin",
         version: "2.0b",
         toPort: 9021
     },
@@ -46,7 +46,7 @@ const payload_map = [
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
+        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
         version: "081f53b",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
@@ -57,7 +57,7 @@ const payload_map = [
         fileName: "byepervisor.elf",
         author: "SpecterDev, ChendoChap, flatz, fail0verflow, Znullptr, kiwidog, sleirsgoevy, EchoStretch, LightningMods, BestPig, zecoxao", 
         projectSource: "https://github.com/EchoStretch/Byepervisor",
-        binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/12567456429",
+        binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/14004003762",
         version: "47a6ae7",
         supportedFirmwares: ["1.00", "1.01", "1.02", "1.12", "1.14", "2.00", "2.20", "2.25", "2.26", "2.30", "2.50", "2.70"],
         toPort: 9021
@@ -78,7 +78,7 @@ const payload_map = [
         fileName: "websrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/websrv",
-        binarySource: "https://github.com/ps5-payload-dev/websrv/releases/download/v0.22/Payload.zip",
+        binarySource: "https://github.com/ps5-payload-dev/websrv/actions/runs/14318408868",
         version: "0.22",
         toPort: 9021
     },
@@ -88,8 +88,8 @@ const payload_map = [
         fileName: "ftpsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.11.2",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
+        version: "0.11.3",
         toPort: 9021
     },
     {
@@ -98,8 +98,8 @@ const payload_map = [
         fileName: "klogsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/klogsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.5.2",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
+        version: "0.5.3",
         toPort: 9021
     },
     {
@@ -108,8 +108,8 @@ const payload_map = [
         fileName: "shsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/shsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.13.1",
+        binarySource: "https://github.com/ps5-payload-dev/shsrv/releases/tag/v0.15",
+        version: "0.15",
         toPort: 9021
     },
     {
@@ -118,7 +118,7 @@ const payload_map = [
         fileName: "gdbsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/gdbsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
         version: "0.5",
         toPort: 9021
     },
