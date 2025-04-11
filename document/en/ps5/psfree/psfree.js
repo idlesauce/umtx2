@@ -122,8 +122,6 @@ function prepare_uaf() {
             fsets.push(fset);
         }
     }
-    
-    history.pushState('state0', '');
 
     alloc_fs(fsets, num_fsets);
 
