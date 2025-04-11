@@ -36,7 +36,7 @@ const payload_map = [
         fileName: "etaHEN-2.0b.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.0b/etaHEN-2.0b.bin",
+        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.0b",
         toPort: 9021
     },
@@ -47,7 +47,7 @@ const payload_map = [
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
         binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
-        version: "081f53b",
+        version: "1.3",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
@@ -58,7 +58,7 @@ const payload_map = [
         author: "SpecterDev, ChendoChap, flatz, fail0verflow, Znullptr, kiwidog, sleirsgoevy, EchoStretch, LightningMods, BestPig, zecoxao", 
         projectSource: "https://github.com/EchoStretch/Byepervisor",
         binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/14004003762",
-        version: "47a6ae7",
+        version: "84164bb",
         supportedFirmwares: ["1.00", "1.01", "1.02", "1.12", "1.14", "2.00", "2.20", "2.25", "2.26", "2.30", "2.50", "2.70"],
         toPort: 9021
     },
@@ -125,12 +125,12 @@ const payload_map = [
     {
         displayTitle: "ps5debug",
         description: "Debugger (Experimental beta)",
-        fileName: "ps5debug_v1.0b2.elf",
+        fileName: "ps5debug_v1.0b3.elf",
         author: "SiSTR0, ctn123",
         projectSource: "https://github.com/GoldHEN/ps5debug",
-        binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b2/ps5debug_v1.0b2.elf",
-        version: "1.0b2",
-        supportedFirmwares: ["3.", "4."],
+        binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b3/ps5debug_v1.0b3.elf",
+        version: "1.0b3",
+        supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
     {
