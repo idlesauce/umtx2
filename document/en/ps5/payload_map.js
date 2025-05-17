@@ -143,6 +143,17 @@ const payload_map = [
         version: "0.0.1-r2",
         toPort: 9021
     },
+	    {
+        displayTitle: "kstuff-toggle",
+        description: "Kstuff Toggle Beta",
+        fileName: "kstuff-toggle.elf",
+        author: "EchoStretch, john-tornblom",
+        projectSource: "https://github.com/EchoStretch/kstuff-toggle",
+        binarySource: "https://github.com/EchoStretch/kstuff-toggle/actions/runs/15086245462",
+        version: "0.2",
+        supportedFirmwares: ["3.", "4.", "5."],
+        toPort: 9021
+    },
     {
         displayTitle: "ps5-versions",
         description: "Shows kernel build, os and sdk versions",
