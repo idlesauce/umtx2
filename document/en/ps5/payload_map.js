@@ -46,8 +46,8 @@ const payload_map = [
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/actions/runs/14686953552",
-        version: "1.3-r3",
+        binarySource: "https://github.com/EchoStretch/kstuff/actions/runs/14986903083",
+        version: "1.5",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
@@ -141,6 +141,17 @@ const payload_map = [
         projectSource: "https://github.com/idlesauce/ps5debug",
         binarySource: "https://github.com/idlesauce/ps5debug/releases/download/v0.0.1/ps5debug.elf",
         version: "0.0.1-r2",
+        toPort: 9021
+    },
+	    {
+        displayTitle: "kstuff-toggle",
+        description: "Kstuff Toggle Beta",
+        fileName: "kstuff-toggle.elf",
+        author: "EchoStretch, john-tornblom",
+        projectSource: "https://github.com/EchoStretch/kstuff-toggle",
+        binarySource: "https://github.com/EchoStretch/kstuff-toggle/actions/runs/15086245462",
+        version: "0.2",
+        supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
     {
