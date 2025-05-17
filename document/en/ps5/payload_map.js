@@ -46,9 +46,9 @@ const payload_map = [
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/actions/runs/14686953552",
-        version: "1.3-r3",
-        supportedFirmwares: ["3.", "4.", "5."],
+        binarySource: "https://github.com/EchoStretch/kstuff/actions/runs/14986903083",
+        version: "1.5",
+        supportedFirmwares: ["3.", "4.", "5.", "6.", "7."],
         toPort: 9021
     },
     {
