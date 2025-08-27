@@ -44,9 +44,9 @@ const payload_map = [
         displayTitle: "ps5-kstuff",
         description: "FPKG enabler",
         fileName: "kstuff.elf",
-        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
-        projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/actions/runs/14986903083",
+        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, idlesauce, BestPig, LightningMods, zecoxao",
+        projectSource: "https://github.com/EchoStretch/ps4jb-payloads/",
+        binarySource: "https://github.com/EchoStretch/ps4jb-payloads/actions/runs/17254240982",
         version: "1.5",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
