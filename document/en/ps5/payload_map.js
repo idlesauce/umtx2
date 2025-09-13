@@ -36,7 +36,7 @@ const payload_map = [
         fileName: "etaHEN-2.3B.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/blob/55cfedcdac504b8a3b1bc349bace16e1969c2ba0/etaHEN-2.3B.bin",
+        binarySource: "https://github.com/etaHEN/etaHEN/blob/b41b22d7686bde5741f5b5e6b72076fc0f4cec56/etaHEN-2.3B.bin",
         version: "2.3b",
         toPort: 9021
     },
