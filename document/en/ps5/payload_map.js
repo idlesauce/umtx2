@@ -33,11 +33,11 @@ const payload_map = [
     {
         displayTitle: "etaHEN",
         description: "AIO HEN",
-        fileName: "etaHEN-2.4B.bin",
+        fileName: "etaHEN-2.5B.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/blob/0fe0407b3a6a84fb1afc1871c953a74118458b0b/etaHEN-2.4B.bin",
-        version: "2.4b",
+        binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
+        version: "2.5b",
         toPort: 9021
     },
     {
@@ -46,9 +46,9 @@ const payload_map = [
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, idlesauce, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/ps4jb-payloads/",
-        binarySource: "https://github.com/EchoStretch/ps4jb-payloads/actions/runs/17254240982",
-        version: "1.5",
-        supportedFirmwares: ["3.", "4.", "5."],
+        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.6.7/kstuff.elf",
+        version: "1.6.7",
+        supportedFirmwares: ["3.", "4.", "5.", "6.", "7.", "8.", "9.", "10."],
         toPort: 9021
     },
     {
@@ -57,8 +57,8 @@ const payload_map = [
         fileName: "byepervisor.elf",
         author: "SpecterDev, ChendoChap, flatz, fail0verflow, Znullptr, kiwidog, sleirsgoevy, EchoStretch, LightningMods, BestPig, zecoxao, TheOfficialFloW", 
         projectSource: "https://github.com/EchoStretch/Byepervisor",
-        binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/18515784313",
-        version: "d89a105",
+        binarySource: "https://github.com/EchoStretch/Byepervisor/releases/download/1.1/byepervisor.elf",
+        version: "1.1",
         supportedFirmwares: ["1.00", "1.01", "1.02", "1.12", "1.14", "2.00", "2.20", "2.25", "2.26", "2.30", "2.50", "2.70"],
         toPort: 9021
     },
@@ -78,8 +78,8 @@ const payload_map = [
         fileName: "websrv-ps5.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/websrv",
-        binarySource: "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.28.1",
-        version: "0.28.1",
+        binarySource: "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.29",
+        version: "0.29",
         toPort: 9021
     },
     {
@@ -88,8 +88,8 @@ const payload_map = [
         fileName: "ftpsrv-ps5.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
-        binarySource: "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.14.3",
-        version: "0.14.3",
+        binarySource: "https://github.com/ps5-payload-dev/ftpsrv/releases/tag/v0.18.2",
+        version: "0.18.2",
         toPort: 9021
     },
     {
@@ -118,8 +118,8 @@ const payload_map = [
         fileName: "gdbsrv-ps5.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/gdbsrv",
-        binarySource: "https://github.com/ps5-payload-dev/gdbsrv/releases/tag/v0.7.1",
-        version: "0.7.1",
+        binarySource: "https://github.com/ps5-payload-dev/gdbsrv/releases/tag/v0.7.3",
+        version: "0.7.3",
         toPort: 9021
     },
     {
@@ -143,15 +143,47 @@ const payload_map = [
         version: "0.0.1-r2",
         toPort: 9021
     },
-	    {
-        displayTitle: "kstuff-toggle",
-        description: "Kstuff Toggle Beta",
-        fileName: "kstuff-toggle.elf",
+    {
+        displayTitle: "kstuff-toggle 1",
+        description: "Kstuff Toggle Beta, Just PS5 sysentvec",
+        fileName: "kstuff-toggle-1.elf",
         author: "EchoStretch, john-tornblom",
         projectSource: "https://github.com/EchoStretch/kstuff-toggle",
-        binarySource: "https://github.com/EchoStretch/kstuff-toggle/actions/runs/15086245462",
-        version: "0.2",
-        supportedFirmwares: ["3.", "4.", "5."],
+        binarySource: "https://github.com/EchoStretch/kstuff-toggle/releases/tag/0.4",
+        version: "0.4Beta",
+        supportedFirmwares: ["3.", "4.", "5.", "9."],
+        toPort: 9021
+    },
+     {
+        displayTitle: "kstuff-toggle 2",
+        description: "Kstuff Toggle Beta, Just PS4 sysentvec",
+        fileName: "kstuff-toggle-2.elf",
+        author: "EchoStretch, john-tornblom",
+        projectSource: "https://github.com/EchoStretch/kstuff-toggle",
+        binarySource: "https://github.com/EchoStretch/kstuff-toggle/releases/tag/0.4",
+        version: "0.4Beta",
+        supportedFirmwares: ["3.", "4.", "5.", "9."],
+        toPort: 9021
+    },
+    {
+        displayTitle: "kstuff-toggle 3",
+        description: "Kstuff Toggle Beta, Both sysentvec",
+        fileName: "kstuff-toggle-3.elf",
+        author: "EchoStretch, john-tornblom",
+        projectSource: "https://github.com/EchoStretch/kstuff-toggle",
+        binarySource: "https://github.com/EchoStretch/kstuff-toggle/releases/tag/0.4",
+        version: "0.4Beta",
+        supportedFirmwares: ["3.", "4.", "5.", "9."],
+        toPort: 9021
+    },
+    {
+        displayTitle: "BackPork",
+        description: "A background payload for PlayStation 5 that automatically allows system library sideloading.",
+        fileName: "ps5-backpork.elf",
+        author: "BestPig",
+        projectSource: "https://github.com/BestPig/BackPork/",
+        binarySource: "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
+        version: "0.1",
         toPort: 9021
     },
     {
